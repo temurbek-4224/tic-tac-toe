@@ -1,0 +1,14 @@
+.border-row {
+  width: 600px;
+  height: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-with: 660px) {
+  .border-row {
+    width: 300px;
+    height: 90px;
+  }
+}

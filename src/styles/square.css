@@ -1,0 +1,30 @@
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(121, 207, 104);
+  border: 2px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 80px;
+  line-height: 140px;
+  font-weight: bold;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  outline: none;
+}
+@media only screen and (max-with: 360px) {
+  .square {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 60px;
+    line-height: 70px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+}
